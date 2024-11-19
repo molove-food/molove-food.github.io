@@ -188,6 +188,10 @@ p {
     font-size: 16px;
 }
 
+.ft-18px{
+    font-size: 18px;
+}
+
 .ft-20px{
     font-size: 20px;
 }
@@ -199,6 +203,10 @@ p {
 
 .w-120px{
     width: 120px;
+}
+
+.mxw-400px{
+    max-width: 400px;
 }
 
 .mxw-500px{
@@ -225,6 +233,9 @@ p {
 .color-white{
   color: white;
 }
+.color-black{
+    color: black;
+  }
 .color-coffee{
     color: #8D7151;
 }
