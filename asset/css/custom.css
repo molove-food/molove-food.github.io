@@ -221,9 +221,26 @@ p {
     min-height: 50px;
 }
 
+.mih-400px{
+    min-height: 400px;
+}
+
 .mih-500px{
     min-height: 500px;
 }
+
+.mt-50px{
+    margin-top: 50px !important;
+}
+
+.mt-70px{
+    margin-top: 70px !important;
+}
+
+.mb-50px{
+    margin-bottom: 50px !important;
+}
+
 
 .flex-basis-auto{
     flex-basis:auto;
@@ -306,6 +323,10 @@ p {
 
     .d-phone-flex {
         display: flex !important;
+    }
+
+    .phone-mt-70px {
+        margin-top: 70px !important;
     }
 }
 
