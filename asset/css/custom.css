@@ -175,6 +175,10 @@ p {
     border-bottom:5px solid #E25E52 ;
 }
 
+.objfit-cover{
+    object-fit: cover;
+}
+
 /* font */
 .ft-12px{
     font-size: 12px;
@@ -215,6 +219,10 @@ p {
 
 .mxh-350px{
     max-height: 350px;
+}
+
+.mxh-890px{
+    max-height: 890px;
 }
 
 .mih-50px{
