@@ -43,7 +43,7 @@
             <a class="nav-link fw-bold" href="index.html">全部商品</a>
           </li>
           <li class="nav-item mx-2">
-            <a class="nav-link fw-bold active" href="about_us.html">關於我們</a>
+            <a class="nav-link fw-bold" href="about_us.html">關於我們</a>
           </li>
           <li class="nav-item mx-2">
             <a class="nav-link fw-bold" href="https://myship.7-11.com.tw/Home/Main" target="_blank">網路商店</a>
@@ -56,7 +56,7 @@
             <a class="nav-link fw-bold" href="index.html">全部商品</a>
           </li>
           <li class="nav-item mx-2">
-            <a class="nav-link fw-bold active" href="about_us.html">關於我們</a>
+            <a class="nav-link fw-bold" href="about_us.html">關於我們</a>
           </li>
           <li class="nav-item mx-2">
             <a class="nav-link fw-bold" href="https://myship.7-11.com.tw/Home/Main" target="_blank">網路商店</a>
@@ -76,7 +76,7 @@
   <!-- /#nav -->
   <!-- content -->
 <div class="container-fluid p-0 mt-50px">
-  <div class="row g-0 h-100">
+  <div class="row g-0 h-100 mxh-890px">
     <div class="col-12 col-lg-5 d-flex justify-content-center h-100 bg-grey-d9">
       <!-- title -->
       <div class="d-flex flex-column justify-content-around h-100">
@@ -130,10 +130,25 @@
       </div>
       <!-- /#title -->
     </div>
-    <div class="col-12 col-lg-7 mih-400px mb-50px">
-      <div class="d-flex justify-content-center align-items-center h-100">
-        <img class="" src="asset/img/sample.png" alt="">
-      </div>
+    <div class="col-12 col-lg-7 mih-400px mb-50px h-100 mxh-890px">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="asset/img/p2.jpg" class="d-block w-100 mxh-890px objfit-cover" alt="...">
+            </div>
+            <div class="carousel-item active">
+              <img src="asset/img/p3.jpg" class="d-block w-100 mxh-890px objfit-cover" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
     </div>
   </div>
 </div>
