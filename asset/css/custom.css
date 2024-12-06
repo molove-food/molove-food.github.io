@@ -209,6 +209,10 @@ p {
     width: 120px;
 }
 
+.h-100vh{
+    height: 100vh;
+}
+
 .mxw-400px{
     max-width: 400px;
 }
@@ -316,6 +320,20 @@ p {
     object-fit: contain;
 }
 
+.background-image-container-1 {
+    width: 100%;
+    background-image: url("asset/img/p2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.background-image-container-2 {
+    width: 100%;
+    background-image: url("asset/img/p3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 /* bs custom */
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-collapse {
@@ -355,6 +373,10 @@ p {
 
     .d-768-none {
         display: none !important;
+    }
+
+    .d-768-h-100vh{
+        height: 100vh;;
     }
 }
 
