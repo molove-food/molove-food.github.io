@@ -179,6 +179,10 @@ p {
     object-fit: cover;
 }
 
+.cursor-p{
+    cursor:pointer;
+}
+
 /* font */
 .ft-12px{
     font-size: 12px;
