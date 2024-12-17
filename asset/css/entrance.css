@@ -1,0 +1,25 @@
+body {
+  color: white;
+  background: #1a1a1a;
+}
+
+.entrance-logo {
+  width: 118px;
+  height: 118px;
+}
+
+.card-border{
+  border-radius: 10px;
+  border: 1px solid #fff;
+}
+
+.css-1rsfhxy {
+  width: 1.5em;
+  height: 1.5em;
+  display: inline-block;
+  line-height: 1em;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  color: #facc83;
+}

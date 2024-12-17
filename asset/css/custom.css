@@ -217,6 +217,10 @@ p {
     height: 100vh;
 }
 
+.h-100dvh{
+    height: 100dvh;
+}
+
 .mxw-400px{
     max-width: 400px;
 }
@@ -289,6 +293,9 @@ p {
 }
 .bg-grey-44{
     background-color: #444444;
+}
+.bg-0f{
+    background-color: #0f0f0f;
 }
 
 
