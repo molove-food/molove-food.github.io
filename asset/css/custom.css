@@ -278,6 +278,9 @@ p {
 .color-price{
     color: #45392F;
 }
+.color-red{
+    color: #DE5043;
+}
 .bg-blue1{
     background-color: #55A6BE;
 }
@@ -327,6 +330,11 @@ p {
 
 .product-img{
     max-width:100px ;
+    object-fit: contain;
+}
+
+.product-img2{
+    max-width:130px ;
     object-fit: contain;
 }
 
